@@ -1,5 +1,6 @@
 #include <stdio.h> 
-int main() { 
+int main() 
+{ 
     printf("Enter the marks of students: "); 
     int marks; 
     scanf("%d", &marks);
@@ -7,21 +8,21 @@ if (marks>85 && marks<100)
     {
             printf("GRADE A");
     }
-    else if (marks>70 && marks<85)
+    else if (marks>70 && marks<84)
     {
         printf("GRADE B");
     }
-    else if (marks>55 && marks<70)
+    else if (marks>55 && marks<69)
     {
         printf("GRADE C");
     }
-    else if (marks>35 && marks<55)
+    else if (marks>40 && marks<54)
     {   
         printf("GRADE D");
     }
-    else if ( marks<35)
+    else if ( marks<40)
     {
-        printf("FAIL");
+        printf("GRADE F");
     }
     
 	else 
